@@ -1,4 +1,4 @@
-# de4js
+# gd4js
 
 ![Logo](assets/images/icons/icon-128x128.png)
 
@@ -6,15 +6,15 @@ JavaScript Deobfuscator and Unpacker
 
 ## Helper
 
-The **Unreadable** option is disabled by default, because it uses data from [JS Nice](http://www.jsnice.org/). This cannot be done with JavaScript. You need to install UserScript [de4js_helper.user.js](https://github.com/lelinhtinh/de4js/blob/master/userscript/de4js_helper.user.js) to enable it.
+The **Unreadable** option is disabled by default, because it uses data from [JS Nice](http://www.jsnice.org/). This cannot be done with JavaScript. You need to install UserScript [gd4js_helper.user.js](https://github.com/GoojDex/gd4js/blob/master/userscript/gd4js_helper.user.js) to enable it.
 
 Install one of the following links:
 
-- [Open User JS](https://openuserjs.org/scripts/baivong/de4js_helper)
-- [Greasy Fork](https://greasyfork.org/vi/scripts/33479-de4js-helper)
-- [Github](https://lelinhtinh.github.io/de4js/userscript/de4js_helper.user.js)
+- [Open User JS](https://openuserjs.org/scripts/baivong/gd4js_helper)
+- [Greasy Fork](https://greasyfork.org/vi/scripts/33479-gd4js-helper)
+- [Github](https://goojdex.github.io/gd4js/userscript/gd4js_helper.user.js)
 
-`*` _**de4js helper** doesn't work offline._
+`*` _**gd4js helper** doesn't work offline._
 
 ## Features
 
@@ -40,19 +40,19 @@ Install one of the following links:
 
     docker-compose up
 
-Preview **de4js** in your web browser at <http://localhost:4000/de4js/>
+Preview **gd4js** in your web browser at <http://localhost:4000/gd4js/>
 
 ### Attach Shell
 
-    docker exec -it de4js_app bash
+    docker exec -it gd4js_app bash
     bundle exec jekyll build
 
 ## Local Development
 
 ### Install
 
-    git clone https://github.com/lelinhtinh/de4js.git
-    cd de4js
+    git clone https://github.com/GoojDex/gd4js.git
+    cd gd4js
 
 If you don't have Ruby installed, install [Ruby 2.1.0 or higher](https://www.ruby-lang.org/en/downloads/).
 
@@ -85,7 +85,7 @@ Or, with livereload:
 
     npm run watch
 
-Preview **de4js** in your web browser at <http://localhost:4000/de4js/>
+Preview **gd4js** in your web browser at <http://localhost:4000/gd4js/>
 
 ### Build
 
@@ -93,13 +93,13 @@ Preview **de4js** in your web browser at <http://localhost:4000/de4js/>
 
 ## License
 
-[MIT License](https://baivong.mit-license.org/) © [lelinhtinh](https://github.com/lelinhtinh)
+[MIT License](https://baivong.mit-license.org/) © [Dev Chandel](https://github.com/GoojDex)
 
 ## Credits
 
 ### Active Contributors
 
-- [lelinhtinh](https://github.com/lelinhtinh)
+- [Dev Chandel](https://github.com/GoojDex)
 - [Himura2la](https://github.com/Himura2la)
 - [Flleeppyy](https://github.com/flleeppyy)
 
