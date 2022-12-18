@@ -86,7 +86,7 @@
     options,
     none = document.getElementById('none'),
     readable = document.getElementById('readable'),
-    form = document.de4js,
+    form = document.gd4js,
     packer = form.encode.value,
     temp = '',
     disableAll = function (check) {
@@ -113,7 +113,7 @@
       autoBtn.disabled = true;
       disableAll(true);
 
-      options = Array.from(document.querySelectorAll('.de4js-option')).reduce((obj, e) => {
+      options = Array.from(document.querySelectorAll('.gd4js-option')).reduce((obj, e) => {
         obj[e.name] = e.checked;
         return obj;
       }, {});
@@ -240,7 +240,7 @@
     },
     decode = debounce(function () {
       if (temp === '') temp = input.value.trim();
-      temp = temp.replace(/\/\*(?!\s*@de4js)[\s\S]*?\*\/|^[\s\t]*\/\/.*/gm, '');
+      temp = temp.replace(/\/\*(?!\s*@gd4js)[\s\S]*?\*\/|^[\s\t]*\/\/.*/gm, '');
       if (temp === '') return;
 
       packer = isAuto ? detect(temp) : form.encode.value;
