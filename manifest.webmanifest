@@ -1,12 +1,12 @@
 {
-  "name": "de4js",
-  "short_name": "de4js",
-  "description": "JavaScript Deobfuscator and Unpacker",
+  "name": "gd4js",
+  "short_name": "gd4js",
+  "description": "My JavaScript Deobfuscator and Unpacker",
   "theme_color": "#b5e853",
   "background_color": "#151515",
   "display": "standalone",
-  "scope": "/de4js/",
-  "start_url": "/de4js/",
+  "scope": "/gd4js/",
+  "start_url": "/gd4js/",
   "icons": [
     {
       "src": "assets/images/icons/icon-72x72.png",
