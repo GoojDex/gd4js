@@ -2,7 +2,7 @@
 
 ![Logo](assets/images/icons/icon-128x128.png)
 
-JavaScript Deobfuscator and Unpacker
+My JavaScript Deobfuscator and Unpacker
 
 ## Helper
 
