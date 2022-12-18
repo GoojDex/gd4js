@@ -2,7 +2,7 @@ version: '3'
 
 services:
   app:
-    container_name: de4js_app
+    container_name: gd4js_app
     build:
       context: .
       dockerfile: Dockerfile
